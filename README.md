@@ -20,8 +20,11 @@ This project is a fully functional, custom-designed analog audio amplifier. It p
 * **Hardware Rework:** After the initial PCB soldering, the final gain was incorrectly locked in. This required physically cutting a resistor from the board and soldering a new one on the top layer to correct the gain stage without fabricating a completely new board.
 
 ## Hardware Implementation
-Here is the final breadboard implementation of the circuit:
+Here is the final breadboard implementation of the circuit alongside the annotated schematic:
 
-![Breadboard Implementation](images/breadboard_image_name.jpg)
+<img width="702" height="525" alt="image" src="https://github.com/user-attachments/assets/17e53a6c-ac1b-490f-82eb-ec923774d0f4" />
+
+<img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/26ac63a5-9577-4948-82d6-836b7086ef62" />
+
 
 For a deep dive into the mathematical derivations, op-amp configurations, and simulation graphs for each block, please see the [Circuit Design Documentation](docs/circuit_design.md).
